@@ -28,6 +28,8 @@ public class MainActivity extends AppCompatActivity {
         btnSingleInstance.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                Intent intent= new Intent(MainActivity.this,TestingSingleInstance.class);
+                startActivity(intent);
 
             }
         });

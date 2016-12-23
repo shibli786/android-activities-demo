@@ -9,4 +9,35 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.example.daffodil.activitiestypedemo.TestingSingleInstance">
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Testing Single Instance"
+        android:id="@+id/textView8"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Go To Single Instance Activity"
+        android:id="@+id/btn_testing_single_instance"
+        android:layout_below="@+id/textView8"
+        android:layout_alignRight="@+id/textView8"
+        android:layout_alignEnd="@+id/textView8"
+        android:layout_marginTop="63dp"
+        android:layout_alignLeft="@+id/textView8"
+        android:layout_alignStart="@+id/textView8" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Lauch Me"
+        android:id="@+id/btn_testing_single_instance_self"
+        android:layout_centerVertical="true"
+        android:layout_alignLeft="@+id/btn_testing_single_instance"
+        android:layout_alignStart="@+id/btn_testing_single_instance"
+        android:layout_alignRight="@+id/btn_testing_single_instance"
+        android:layout_alignEnd="@+id/btn_testing_single_instance" />
 </RelativeLayout>
